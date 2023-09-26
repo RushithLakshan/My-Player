@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainue"
+    android:paddingTop="40dp"
+    android:paddingLeft="20dp"
+    android:background="@drawable/image">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY LIST"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textFontWeight="20"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:keepScreenOn="true"
+        android:paddingTop="30dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableRow>
+
+        <LinearLayout
+            android:id="@+id/btn_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:paddingTop="40dp"
+            android:theme="@style/ClickableView">
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/download"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My video 1"
+                android:paddingTop="25dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"/>
+
+
+
+        </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/btn_video1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:tag="https://www.rmp-streaming.com/media/big-buck-bunny-360p.mp4"
+                android:theme="@style/ClickableView">
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/download"
+                    android:theme="@style/ClickableView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My video 2"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"/>
+
+
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/btn_video2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:tag="my1.txt"
+                android:theme="@style/ClickableView">
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/download"
+                    android:theme="@style/ClickableView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My video 3"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"/>
+
+
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/btn_video3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:theme="@style/ClickableView">
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/download"
+                    android:theme="@style/ClickableView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My video 4"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"/>
+
+
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/btn_video4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:theme="@style/ClickableView">
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/download"
+                    android:theme="@style/ClickableView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My video 5"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"/>
+
+
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:id="@+id/btn_video5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:paddingTop="40dp"
+                android:theme="@style/ClickableView">
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/download"
+                    android:theme="@style/ClickableView"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My video 6"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"/>
+
+
+
+            </LinearLayout>
+        </TableRow>
+
+    </GridLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
